@@ -1,0 +1,16 @@
+PODS:
+  - DKDateFormatter (0.0.1)
+
+DEPENDENCIES:
+  - DKDateFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  DKDateFormatter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DKDateFormatter: 0e3056cdaf2a6bfea9764d5dfca6fc226677734d
+
+PODFILE CHECKSUM: f83394372ceb2d3d662df460a3176b305ac30273
+
+COCOAPODS: 1.4.0

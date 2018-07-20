@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2080F78CD04D706335BD3262 /* libPods-DKDateFormatterDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5F1EDEDFF27C82D566FFAD /* libPods-DKDateFormatterDemoUITests.a */; };
+		26FE3423F391D0AB7D64F4B3 /* libPods-DKDateFormatterDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5DC06357D12072EB6C3FAB /* libPods-DKDateFormatterDemoTests.a */; };
+		2DA276C12101900D00265188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA276C02101900D00265188 /* AppDelegate.m */; };
+		2DA276C42101900D00265188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA276C32101900D00265188 /* ViewController.m */; };
+		2DA276C72101900D00265188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA276C52101900D00265188 /* Main.storyboard */; };
+		2DA276C92101900E00265188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA276C82101900E00265188 /* Assets.xcassets */; };
+		2DA276CC2101900E00265188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA276CA2101900E00265188 /* LaunchScreen.storyboard */; };
+		2DA276CF2101900E00265188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA276CE2101900E00265188 /* main.m */; };
+		2DA276D92101900E00265188 /* DKDateFormatterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA276D82101900E00265188 /* DKDateFormatterDemoTests.m */; };
+		2DA276E42101900E00265188 /* DKDateFormatterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA276E32101900E00265188 /* DKDateFormatterDemoUITests.m */; };
+		A43DE69B8E767F0139E18CA9 /* libPods-DKDateFormatterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BF3E3E3450586260767B35 /* libPods-DKDateFormatterDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA276D52101900E00265188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA276B42101900D00265188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA276BB2101900D00265188;
+			remoteInfo = DKDateFormatterDemo;
+		};
+		2DA276E02101900E00265188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA276B42101900D00265188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA276BB2101900D00265188;
+			remoteInfo = DKDateFormatterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28BF3E3E3450586260767B35 /* libPods-DKDateFormatterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKDateFormatterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6687042969FBD70E279F21 /* Pods-DKDateFormatterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKDateFormatterDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKDateFormatterDemoTests/Pods-DKDateFormatterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA276BC2101900D00265188 /* DKDateFormatterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKDateFormatterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA276BF2101900D00265188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DA276C02101900D00265188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DA276C22101900D00265188 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DA276C32101900D00265188 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DA276C62101900D00265188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA276C82101900E00265188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA276CB2101900E00265188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA276CD2101900E00265188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA276CE2101900E00265188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DA276D42101900E00265188 /* DKDateFormatterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKDateFormatterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA276D82101900E00265188 /* DKDateFormatterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKDateFormatterDemoTests.m; sourceTree = "<group>"; };
+		2DA276DA2101900E00265188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA276DF2101900E00265188 /* DKDateFormatterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKDateFormatterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA276E32101900E00265188 /* DKDateFormatterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKDateFormatterDemoUITests.m; sourceTree = "<group>"; };
+		2DA276E52101900E00265188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4746BE9325354A44381F57DC /* Pods-DKDateFormatterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKDateFormatterDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKDateFormatterDemoUITests/Pods-DKDateFormatterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C5DC06357D12072EB6C3FAB /* libPods-DKDateFormatterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKDateFormatterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A6BF73B387E2F75BFCD5F1 /* Pods-DKDateFormatterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKDateFormatterDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKDateFormatterDemoUITests/Pods-DKDateFormatterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71DC192708BB57CF4935F5C1 /* Pods-DKDateFormatterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKDateFormatterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKDateFormatterDemo/Pods-DKDateFormatterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9193045D65E1C83BD31DF14C /* Pods-DKDateFormatterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKDateFormatterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKDateFormatterDemo/Pods-DKDateFormatterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A5FAFDB3D12171451254C0B1 /* Pods-DKDateFormatterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKDateFormatterDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKDateFormatterDemoTests/Pods-DKDateFormatterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF5F1EDEDFF27C82D566FFAD /* libPods-DKDateFormatterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKDateFormatterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA276B92101900D00265188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43DE69B8E767F0139E18CA9 /* libPods-DKDateFormatterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA276D12101900E00265188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FE3423F391D0AB7D64F4B3 /* libPods-DKDateFormatterDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA276DC2101900E00265188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2080F78CD04D706335BD3262 /* libPods-DKDateFormatterDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115D5D1463E2C116D9A696BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28BF3E3E3450586260767B35 /* libPods-DKDateFormatterDemo.a */,
+				5C5DC06357D12072EB6C3FAB /* libPods-DKDateFormatterDemoTests.a */,
+				BF5F1EDEDFF27C82D566FFAD /* libPods-DKDateFormatterDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DA276B32101900D00265188 = {
+			isa = PBXGroup;
+			children = (
+				2DA276BE2101900D00265188 /* DKDateFormatterDemo */,
+				2DA276D72101900E00265188 /* DKDateFormatterDemoTests */,
+				2DA276E22101900E00265188 /* DKDateFormatterDemoUITests */,
+				2DA276BD2101900D00265188 /* Products */,
+				91FBB8863CEFF907D6AA1BDF /* Pods */,
+				115D5D1463E2C116D9A696BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA276BD2101900D00265188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA276BC2101900D00265188 /* DKDateFormatterDemo.app */,
+				2DA276D42101900E00265188 /* DKDateFormatterDemoTests.xctest */,
+				2DA276DF2101900E00265188 /* DKDateFormatterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA276BE2101900D00265188 /* DKDateFormatterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2DA276BF2101900D00265188 /* AppDelegate.h */,
+				2DA276C02101900D00265188 /* AppDelegate.m */,
+				2DA276C22101900D00265188 /* ViewController.h */,
+				2DA276C32101900D00265188 /* ViewController.m */,
+				2DA276C52101900D00265188 /* Main.storyboard */,
+				2DA276C82101900E00265188 /* Assets.xcassets */,
+				2DA276CA2101900E00265188 /* LaunchScreen.storyboard */,
+				2DA276CD2101900E00265188 /* Info.plist */,
+				2DA276CE2101900E00265188 /* main.m */,
+			);
+			path = DKDateFormatterDemo;
+			sourceTree = "<group>";
+		};
+		2DA276D72101900E00265188 /* DKDateFormatterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA276D82101900E00265188 /* DKDateFormatterDemoTests.m */,
+				2DA276DA2101900E00265188 /* Info.plist */,
+			);
+			path = DKDateFormatterDemoTests;
+			sourceTree = "<group>";
+		};
+		2DA276E22101900E00265188 /* DKDateFormatterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA276E32101900E00265188 /* DKDateFormatterDemoUITests.m */,
+				2DA276E52101900E00265188 /* Info.plist */,
+			);
+			path = DKDateFormatterDemoUITests;
+			sourceTree = "<group>";
+		};
+		91FBB8863CEFF907D6AA1BDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71DC192708BB57CF4935F5C1 /* Pods-DKDateFormatterDemo.debug.xcconfig */,
+				9193045D65E1C83BD31DF14C /* Pods-DKDateFormatterDemo.release.xcconfig */,
+				2D6687042969FBD70E279F21 /* Pods-DKDateFormatterDemoTests.debug.xcconfig */,
+				A5FAFDB3D12171451254C0B1 /* Pods-DKDateFormatterDemoTests.release.xcconfig */,
+				71A6BF73B387E2F75BFCD5F1 /* Pods-DKDateFormatterDemoUITests.debug.xcconfig */,
+				4746BE9325354A44381F57DC /* Pods-DKDateFormatterDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA276BB2101900D00265188 /* DKDateFormatterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA276E82101900E00265188 /* Build configuration list for PBXNativeTarget "DKDateFormatterDemo" */;
+			buildPhases = (
+				F07A099A3477002EFD882692 /* [CP] Check Pods Manifest.lock */,
+				2DA276B82101900D00265188 /* Sources */,
+				2DA276B92101900D00265188 /* Frameworks */,
+				2DA276BA2101900D00265188 /* Resources */,
+				C08F28C38C6326771926A3F0 /* [CP] Embed Pods Frameworks */,
+				08CF47FBF606C943E67CE976 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKDateFormatterDemo;
+			productName = DKDateFormatterDemo;
+			productReference = 2DA276BC2101900D00265188 /* DKDateFormatterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA276D32101900E00265188 /* DKDateFormatterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA276EB2101900E00265188 /* Build configuration list for PBXNativeTarget "DKDateFormatterDemoTests" */;
+			buildPhases = (
+				959DE574D1237A5400C78DED /* [CP] Check Pods Manifest.lock */,
+				2DA276D02101900E00265188 /* Sources */,
+				2DA276D12101900E00265188 /* Frameworks */,
+				2DA276D22101900E00265188 /* Resources */,
+				8A55F2940AC2E290E6AFD818 /* [CP] Embed Pods Frameworks */,
+				A76114523CCA4CF985CC3E9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA276D62101900E00265188 /* PBXTargetDependency */,
+			);
+			name = DKDateFormatterDemoTests;
+			productName = DKDateFormatterDemoTests;
+			productReference = 2DA276D42101900E00265188 /* DKDateFormatterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DA276DE2101900E00265188 /* DKDateFormatterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA276EE2101900E00265188 /* Build configuration list for PBXNativeTarget "DKDateFormatterDemoUITests" */;
+			buildPhases = (
+				5EC64D3E37CE62C0BE1F7A63 /* [CP] Check Pods Manifest.lock */,
+				2DA276DB2101900E00265188 /* Sources */,
+				2DA276DC2101900E00265188 /* Frameworks */,
+				2DA276DD2101900E00265188 /* Resources */,
+				84612B983FA0BC04087B714D /* [CP] Embed Pods Frameworks */,
+				56AB0F118AF0217AA3CE9AA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA276E12101900E00265188 /* PBXTargetDependency */,
+			);
+			name = DKDateFormatterDemoUITests;
+			productName = DKDateFormatterDemoUITests;
+			productReference = 2DA276DF2101900E00265188 /* DKDateFormatterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA276B42101900D00265188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Ziwutong;
+				TargetAttributes = {
+					2DA276BB2101900D00265188 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2DA276D32101900E00265188 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2DA276BB2101900D00265188;
+					};
+					2DA276DE2101900E00265188 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2DA276BB2101900D00265188;
+					};
+				};
+			};
+			buildConfigurationList = 2DA276B72101900D00265188 /* Build configuration list for PBXProject "DKDateFormatterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA276B32101900D00265188;
+			productRefGroup = 2DA276BD2101900D00265188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA276BB2101900D00265188 /* DKDateFormatterDemo */,
+				2DA276D32101900E00265188 /* DKDateFormatterDemoTests */,
+				2DA276DE2101900E00265188 /* DKDateFormatterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA276BA2101900D00265188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA276CC2101900E00265188 /* LaunchScreen.storyboard in Resources */,
+				2DA276C92101900E00265188 /* Assets.xcassets in Resources */,
+				2DA276C72101900D00265188 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA276D22101900E00265188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA276DD2101900E00265188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CF47FBF606C943E67CE976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKDateFormatterDemo/Pods-DKDateFormatterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56AB0F118AF0217AA3CE9AA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKDateFormatterDemoUITests/Pods-DKDateFormatterDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EC64D3E37CE62C0BE1F7A63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKDateFormatterDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84612B983FA0BC04087B714D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKDateFormatterDemoUITests/Pods-DKDateFormatterDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A55F2940AC2E290E6AFD818 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKDateFormatterDemoTests/Pods-DKDateFormatterDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		959DE574D1237A5400C78DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKDateFormatterDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76114523CCA4CF985CC3E9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKDateFormatterDemoTests/Pods-DKDateFormatterDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C08F28C38C6326771926A3F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKDateFormatterDemo/Pods-DKDateFormatterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07A099A3477002EFD882692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKDateFormatterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA276B82101900D00265188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA276C42101900D00265188 /* ViewController.m in Sources */,
+				2DA276CF2101900E00265188 /* main.m in Sources */,
+				2DA276C12101900D00265188 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA276D02101900E00265188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA276D92101900E00265188 /* DKDateFormatterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA276DB2101900E00265188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA276E42101900E00265188 /* DKDateFormatterDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA276D62101900E00265188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA276BB2101900D00265188 /* DKDateFormatterDemo */;
+			targetProxy = 2DA276D52101900E00265188 /* PBXContainerItemProxy */;
+		};
+		2DA276E12101900E00265188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA276BB2101900D00265188 /* DKDateFormatterDemo */;
+			targetProxy = 2DA276E02101900E00265188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA276C52101900D00265188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA276C62101900D00265188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA276CA2101900E00265188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA276CB2101900E00265188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA276E62101900E00265188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DA276E72101900E00265188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA276E92101900E00265188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DC192708BB57CF4935F5C1 /* Pods-DKDateFormatterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = DKDateFormatterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.DKDateFormatterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA276EA2101900E00265188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9193045D65E1C83BD31DF14C /* Pods-DKDateFormatterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = DKDateFormatterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.DKDateFormatterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DA276EC2101900E00265188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6687042969FBD70E279F21 /* Pods-DKDateFormatterDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = DKDateFormatterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.DKDateFormatterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKDateFormatterDemo.app/DKDateFormatterDemo";
+			};
+			name = Debug;
+		};
+		2DA276ED2101900E00265188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FAFDB3D12171451254C0B1 /* Pods-DKDateFormatterDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = DKDateFormatterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.DKDateFormatterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKDateFormatterDemo.app/DKDateFormatterDemo";
+			};
+			name = Release;
+		};
+		2DA276EF2101900E00265188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A6BF73B387E2F75BFCD5F1 /* Pods-DKDateFormatterDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = DKDateFormatterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.DKDateFormatterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKDateFormatterDemo;
+			};
+			name = Debug;
+		};
+		2DA276F02101900E00265188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4746BE9325354A44381F57DC /* Pods-DKDateFormatterDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53395UF4JK;
+				INFOPLIST_FILE = DKDateFormatterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ziwutong.DKDateFormatterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKDateFormatterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA276B72101900D00265188 /* Build configuration list for PBXProject "DKDateFormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA276E62101900E00265188 /* Debug */,
+				2DA276E72101900E00265188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA276E82101900E00265188 /* Build configuration list for PBXNativeTarget "DKDateFormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA276E92101900E00265188 /* Debug */,
+				2DA276EA2101900E00265188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA276EB2101900E00265188 /* Build configuration list for PBXNativeTarget "DKDateFormatterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA276EC2101900E00265188 /* Debug */,
+				2DA276ED2101900E00265188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA276EE2101900E00265188 /* Build configuration list for PBXNativeTarget "DKDateFormatterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA276EF2101900E00265188 /* Debug */,
+				2DA276F02101900E00265188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA276B42101900D00265188 /* Project object */;
+}

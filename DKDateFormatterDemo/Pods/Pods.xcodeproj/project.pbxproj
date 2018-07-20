@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311923F8E273658809F930D9667C8E28 /* Pods-DKDateFormatterDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D701B0C1C5F7B59CA800EDD2F001C3 /* Pods-DKDateFormatterDemoTests-dummy.m */; };
+		31B52B9D7A6C5C72E7BF9A1599F4C53E /* DKFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DCF7F0FE96C6E074E92D2F11CB037 /* DKFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49C71816FFDD23D361F6DF3A759FBBBF /* DKDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7FD9CC4A8A32CF84F358998F0D83E4 /* DKDateFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89D76058FBD2FEDDD71BD34634C1D948 /* Pods-DKDateFormatterDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 676106BD682C4AF10E248877545F9A5C /* Pods-DKDateFormatterDemo-dummy.m */; };
+		967A959DF9D5AFDE23A490ADA1719742 /* NSDate+DKStringFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C973596FCC60EFA5497C4D14499D537 /* NSDate+DKStringFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DBB8349620294463B062FC19E8787EE /* DKServiceFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4A3C998361AE6910A91AB30D4827DA /* DKServiceFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A046700F1C17E978061D2DD84282BC14 /* NSDate+DKStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B048C9A5AA32CB0292B70626F7BE058 /* NSDate+DKStringFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7D5AA2299AACEC24F537DCDC2CB2887 /* NSString+DKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4772CE2E194F62028480954758525E1E /* NSString+DKDateFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C556FE1F207D6BA1E9C32E35EA3CE579 /* DKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D18D74A57ECDE0623B456A55195A2170 /* DKDateFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8AF96A4242E10F18910906ED0315AC2 /* DKDateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A6CD9073397CFC6DB6908F92D1232 /* DKDateFormatter-dummy.m */; };
+		E725B34E7A62993A50DAACE10B47F2E7 /* Pods-DKDateFormatterDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B403772DA6A41535BDD55A108CD518 /* Pods-DKDateFormatterDemoUITests-dummy.m */; };
+		F466AC177D921717F89753BB8B8F5742 /* NSString+DKDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FA119F652FD0A0B826C9399C6C4521BA /* NSString+DKDateFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDEAA64F5CE606CDCC26A7E2F19A69F5 /* DKFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5A7F5E4E22F3A74462D0D0F0ACC53F /* DKFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B3111F81F0122729CCC2F09EF25C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D0D1C1E4D13314D5915B9CC2CB133F;
+			remoteInfo = DKDateFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011DCF7F0FE96C6E074E92D2F11CB037 /* DKFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DKFormatter.m; path = Class/DKFormatter.m; sourceTree = "<group>"; };
+		093A6CD9073397CFC6DB6908F92D1232 /* DKDateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKDateFormatter-dummy.m"; sourceTree = "<group>"; };
+		0A7FD9CC4A8A32CF84F358998F0D83E4 /* DKDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKDateFormatter.h; path = Class/DKDateFormatter.h; sourceTree = "<group>"; };
+		24AA522E02BE24AD6F08917A296B56DC /* libPods-DKDateFormatterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DKDateFormatterDemoTests.a"; path = "libPods-DKDateFormatterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B403772DA6A41535BDD55A108CD518 /* Pods-DKDateFormatterDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKDateFormatterDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		26449F9552779DFE1F9F269E1CCDF940 /* Pods-DKDateFormatterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDateFormatterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26C5B4A18E14306E6A00C0C0B1DD1BBD /* DKDateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKDateFormatter.xcconfig; sourceTree = "<group>"; };
+		29B57378DB73319E5244E327C9D7E310 /* Pods-DKDateFormatterDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDateFormatterDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		2B048C9A5AA32CB0292B70626F7BE058 /* NSDate+DKStringFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DKStringFormatter.m"; path = "Class/NSDate+DKStringFormatter.m"; sourceTree = "<group>"; };
+		2F5222176FA7D86A5CD272D2D354469A /* Pods-DKDateFormatterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDateFormatterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31605022B2DEED9B83F76C16A4DB5547 /* Pods-DKDateFormatterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDateFormatterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3281E4E203D6DE3B64B8F724FCD2EC6F /* Pods-DKDateFormatterDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDateFormatterDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		37B12228C392E8E8E5B05E8B54CB98CC /* Pods-DKDateFormatterDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDateFormatterDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		38804762A7ACD87D30F3269B15AA6CA8 /* Pods-DKDateFormatterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDateFormatterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2A6FBFA6658F7ED2342EFE1EDECC91 /* Pods-DKDateFormatterDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDateFormatterDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A4A3C998361AE6910A91AB30D4827DA /* DKServiceFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKServiceFormatter.h; path = Class/DKServiceFormatter.h; sourceTree = "<group>"; };
+		4772CE2E194F62028480954758525E1E /* NSString+DKDateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DKDateFormatter.m"; path = "Class/NSString+DKDateFormatter.m"; sourceTree = "<group>"; };
+		47D2DADFD5CF1D5F22F58E39D2E18AB0 /* libPods-DKDateFormatterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DKDateFormatterDemo.a"; path = "libPods-DKDateFormatterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51461964A5500064E54664BEF837AC5F /* Pods-DKDateFormatterDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDateFormatterDemoTests-resources.sh"; sourceTree = "<group>"; };
+		530F6366EEC6DC3D171AF9E5289EF28E /* libPods-DKDateFormatterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DKDateFormatterDemoUITests.a"; path = "libPods-DKDateFormatterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		676106BD682C4AF10E248877545F9A5C /* Pods-DKDateFormatterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKDateFormatterDemo-dummy.m"; sourceTree = "<group>"; };
+		6AE06EAD04BF85AF464242923CFEB8FB /* libDKDateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDKDateFormatter.a; path = libDKDateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		728F2A3721CE79C0020B8B36373BEBAB /* Pods-DKDateFormatterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDateFormatterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7C973596FCC60EFA5497C4D14499D537 /* NSDate+DKStringFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DKStringFormatter.h"; path = "Class/NSDate+DKStringFormatter.h"; sourceTree = "<group>"; };
+		913590B845602F2F5DD6D45ADF54795A /* Pods-DKDateFormatterDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDateFormatterDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A2278136E083F00FD544A32AB88C10 /* Pods-DKDateFormatterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDateFormatterDemo-frameworks.sh"; sourceTree = "<group>"; };
+		9B275D9A97DFCCD0F0CA6718E87EA9FA /* Pods-DKDateFormatterDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKDateFormatterDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0D2CB9D5368A3FC509C0181C35567E7 /* Pods-DKDateFormatterDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDateFormatterDemo-resources.sh"; sourceTree = "<group>"; };
+		A18B700DBD1FFC06D4206EBB12095C4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3D701B0C1C5F7B59CA800EDD2F001C3 /* Pods-DKDateFormatterDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKDateFormatterDemoTests-dummy.m"; sourceTree = "<group>"; };
+		D18D74A57ECDE0623B456A55195A2170 /* DKDateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DKDateFormatter.m; path = Class/DKDateFormatter.m; sourceTree = "<group>"; };
+		D34655035D3EC76F60898E62622AD518 /* Pods-DKDateFormatterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDateFormatterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D958E5A98C22A3CC0E692F44F87FD0E1 /* Pods-DKDateFormatterDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKDateFormatterDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB5A7F5E4E22F3A74462D0D0F0ACC53F /* DKFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKFormatter.h; path = Class/DKFormatter.h; sourceTree = "<group>"; };
+		E11C961E2F541C3391A5615FF4B38249 /* DKDateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKDateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		E7B3B59B1566F5DBC275F4BF56A81A66 /* DKDateFormatter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DKDateFormatter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F20C27F5B4D9139F1ED9C8BE5B0F8545 /* Pods-DKDateFormatterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDateFormatterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F806E4AB01266466A78B6C5EA49E90AA /* Pods-DKDateFormatterDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKDateFormatterDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA119F652FD0A0B826C9399C6C4521BA /* NSString+DKDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DKDateFormatter.h"; path = "Class/NSString+DKDateFormatter.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1571AC2D7173839B88CA36183BCB44CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5B17FFA5EA347BC0423A56FB008AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902DBA47FF049FB07553459BE114629A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFD73A8EA286448EF71BE801DAF7AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09474C52AE406190BA55A07A56477ACC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B74767691CF90D84990916FE7DDA0B /* Pods-DKDateFormatterDemo */,
+				CF1D5281689BBF11CECB55D4AF444D52 /* Pods-DKDateFormatterDemoTests */,
+				6ED8D54E0E26FA11A20F96FB1E6F6CFD /* Pods-DKDateFormatterDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44246CDA09A6F10BC614A03E41482721 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26C5B4A18E14306E6A00C0C0B1DD1BBD /* DKDateFormatter.xcconfig */,
+				093A6CD9073397CFC6DB6908F92D1232 /* DKDateFormatter-dummy.m */,
+				E11C961E2F541C3391A5615FF4B38249 /* DKDateFormatter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "DKDateFormatterDemo/Pods/Target Support Files/DKDateFormatter";
+			sourceTree = "<group>";
+		};
+		628D266CD0415249DE6141E515AB9217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE06EAD04BF85AF464242923CFEB8FB /* libDKDateFormatter.a */,
+				47D2DADFD5CF1D5F22F58E39D2E18AB0 /* libPods-DKDateFormatterDemo.a */,
+				24AA522E02BE24AD6F08917A296B56DC /* libPods-DKDateFormatterDemoTests.a */,
+				530F6366EEC6DC3D171AF9E5289EF28E /* libPods-DKDateFormatterDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ED8D54E0E26FA11A20F96FB1E6F6CFD /* Pods-DKDateFormatterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F806E4AB01266466A78B6C5EA49E90AA /* Pods-DKDateFormatterDemoUITests-acknowledgements.markdown */,
+				3A2A6FBFA6658F7ED2342EFE1EDECC91 /* Pods-DKDateFormatterDemoUITests-acknowledgements.plist */,
+				25B403772DA6A41535BDD55A108CD518 /* Pods-DKDateFormatterDemoUITests-dummy.m */,
+				913590B845602F2F5DD6D45ADF54795A /* Pods-DKDateFormatterDemoUITests-frameworks.sh */,
+				37B12228C392E8E8E5B05E8B54CB98CC /* Pods-DKDateFormatterDemoUITests-resources.sh */,
+				38804762A7ACD87D30F3269B15AA6CA8 /* Pods-DKDateFormatterDemoUITests.debug.xcconfig */,
+				26449F9552779DFE1F9F269E1CCDF940 /* Pods-DKDateFormatterDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-DKDateFormatterDemoUITests";
+			path = "Target Support Files/Pods-DKDateFormatterDemoUITests";
+			sourceTree = "<group>";
+		};
+		77B74767691CF90D84990916FE7DDA0B /* Pods-DKDateFormatterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B275D9A97DFCCD0F0CA6718E87EA9FA /* Pods-DKDateFormatterDemo-acknowledgements.markdown */,
+				31605022B2DEED9B83F76C16A4DB5547 /* Pods-DKDateFormatterDemo-acknowledgements.plist */,
+				676106BD682C4AF10E248877545F9A5C /* Pods-DKDateFormatterDemo-dummy.m */,
+				98A2278136E083F00FD544A32AB88C10 /* Pods-DKDateFormatterDemo-frameworks.sh */,
+				A0D2CB9D5368A3FC509C0181C35567E7 /* Pods-DKDateFormatterDemo-resources.sh */,
+				F20C27F5B4D9139F1ED9C8BE5B0F8545 /* Pods-DKDateFormatterDemo.debug.xcconfig */,
+				728F2A3721CE79C0020B8B36373BEBAB /* Pods-DKDateFormatterDemo.release.xcconfig */,
+			);
+			name = "Pods-DKDateFormatterDemo";
+			path = "Target Support Files/Pods-DKDateFormatterDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E2AC8526FD0A836D0A9CAFB8BF36E865 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				628D266CD0415249DE6141E515AB9217 /* Products */,
+				09474C52AE406190BA55A07A56477ACC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89ADA0FB7788E907ED4961229D3B9B95 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B59B1566F5DBC275F4BF56A81A66 /* DKDateFormatter.podspec */,
+				A18B700DBD1FFC06D4206EBB12095C4D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A9891B700A4212BE7B64BF46A642D912 /* DKDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				0A7FD9CC4A8A32CF84F358998F0D83E4 /* DKDateFormatter.h */,
+				D18D74A57ECDE0623B456A55195A2170 /* DKDateFormatter.m */,
+				DB5A7F5E4E22F3A74462D0D0F0ACC53F /* DKFormatter.h */,
+				011DCF7F0FE96C6E074E92D2F11CB037 /* DKFormatter.m */,
+				3A4A3C998361AE6910A91AB30D4827DA /* DKServiceFormatter.h */,
+				7C973596FCC60EFA5497C4D14499D537 /* NSDate+DKStringFormatter.h */,
+				2B048C9A5AA32CB0292B70626F7BE058 /* NSDate+DKStringFormatter.m */,
+				FA119F652FD0A0B826C9399C6C4521BA /* NSString+DKDateFormatter.h */,
+				4772CE2E194F62028480954758525E1E /* NSString+DKDateFormatter.m */,
+				89ADA0FB7788E907ED4961229D3B9B95 /* Pod */,
+				44246CDA09A6F10BC614A03E41482721 /* Support Files */,
+			);
+			name = DKDateFormatter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1D5281689BBF11CECB55D4AF444D52 /* Pods-DKDateFormatterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D958E5A98C22A3CC0E692F44F87FD0E1 /* Pods-DKDateFormatterDemoTests-acknowledgements.markdown */,
+				3281E4E203D6DE3B64B8F724FCD2EC6F /* Pods-DKDateFormatterDemoTests-acknowledgements.plist */,
+				B3D701B0C1C5F7B59CA800EDD2F001C3 /* Pods-DKDateFormatterDemoTests-dummy.m */,
+				29B57378DB73319E5244E327C9D7E310 /* Pods-DKDateFormatterDemoTests-frameworks.sh */,
+				51461964A5500064E54664BEF837AC5F /* Pods-DKDateFormatterDemoTests-resources.sh */,
+				2F5222176FA7D86A5CD272D2D354469A /* Pods-DKDateFormatterDemoTests.debug.xcconfig */,
+				D34655035D3EC76F60898E62622AD518 /* Pods-DKDateFormatterDemoTests.release.xcconfig */,
+			);
+			name = "Pods-DKDateFormatterDemoTests";
+			path = "Target Support Files/Pods-DKDateFormatterDemoTests";
+			sourceTree = "<group>";
+		};
+		E2AC8526FD0A836D0A9CAFB8BF36E865 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9891B700A4212BE7B64BF46A642D912 /* DKDateFormatter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D504B78B9FFC47D8AC11D1D961B08922 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C71816FFDD23D361F6DF3A759FBBBF /* DKDateFormatter.h in Headers */,
+				FDEAA64F5CE606CDCC26A7E2F19A69F5 /* DKFormatter.h in Headers */,
+				9DBB8349620294463B062FC19E8787EE /* DKServiceFormatter.h in Headers */,
+				967A959DF9D5AFDE23A490ADA1719742 /* NSDate+DKStringFormatter.h in Headers */,
+				F466AC177D921717F89753BB8B8F5742 /* NSString+DKDateFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		068FBF5B12ADF3DD362F03DE31AA9B06 /* Pods-DKDateFormatterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96E5328F38BE08F85158EFE8282B22B /* Build configuration list for PBXNativeTarget "Pods-DKDateFormatterDemoTests" */;
+			buildPhases = (
+				86D56B0C2333001263D241CFAF773B8A /* Sources */,
+				5B5B17FFA5EA347BC0423A56FB008AD6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DKDateFormatterDemoTests";
+			productName = "Pods-DKDateFormatterDemoTests";
+			productReference = 24AA522E02BE24AD6F08917A296B56DC /* libPods-DKDateFormatterDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45D0D1C1E4D13314D5915B9CC2CB133F /* DKDateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF503314BF2ADD03007EFD335D47F99 /* Build configuration list for PBXNativeTarget "DKDateFormatter" */;
+			buildPhases = (
+				55D479D4C62A6E77B66993F2E8CBFD12 /* Sources */,
+				902DBA47FF049FB07553459BE114629A /* Frameworks */,
+				D504B78B9FFC47D8AC11D1D961B08922 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKDateFormatter;
+			productName = DKDateFormatter;
+			productReference = 6AE06EAD04BF85AF464242923CFEB8FB /* libDKDateFormatter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6FF712E8D85B280D13C3490139FC6229 /* Pods-DKDateFormatterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A736FCC80476E4527B7C1955E8E071 /* Build configuration list for PBXNativeTarget "Pods-DKDateFormatterDemoUITests" */;
+			buildPhases = (
+				9756D57244C393D662D71AC7DD720EB2 /* Sources */,
+				1571AC2D7173839B88CA36183BCB44CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DKDateFormatterDemoUITests";
+			productName = "Pods-DKDateFormatterDemoUITests";
+			productReference = 530F6366EEC6DC3D171AF9E5289EF28E /* libPods-DKDateFormatterDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1B21D302811939F052FBA179345C4BE /* Pods-DKDateFormatterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D1EE61BF9077AE4247094C68F54FBB /* Build configuration list for PBXNativeTarget "Pods-DKDateFormatterDemo" */;
+			buildPhases = (
+				40A92DBC7A75128BD4CF037B5FE2DA73 /* Sources */,
+				DAFD73A8EA286448EF71BE801DAF7AAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5403306A74321013D0809ADEB428B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DKDateFormatterDemo";
+			productName = "Pods-DKDateFormatterDemo";
+			productReference = 47D2DADFD5CF1D5F22F58E39D2E18AB0 /* libPods-DKDateFormatterDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 628D266CD0415249DE6141E515AB9217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D0D1C1E4D13314D5915B9CC2CB133F /* DKDateFormatter */,
+				B1B21D302811939F052FBA179345C4BE /* Pods-DKDateFormatterDemo */,
+				068FBF5B12ADF3DD362F03DE31AA9B06 /* Pods-DKDateFormatterDemoTests */,
+				6FF712E8D85B280D13C3490139FC6229 /* Pods-DKDateFormatterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A92DBC7A75128BD4CF037B5FE2DA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D76058FBD2FEDDD71BD34634C1D948 /* Pods-DKDateFormatterDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D479D4C62A6E77B66993F2E8CBFD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AF96A4242E10F18910906ED0315AC2 /* DKDateFormatter-dummy.m in Sources */,
+				C556FE1F207D6BA1E9C32E35EA3CE579 /* DKDateFormatter.m in Sources */,
+				31B52B9D7A6C5C72E7BF9A1599F4C53E /* DKFormatter.m in Sources */,
+				A046700F1C17E978061D2DD84282BC14 /* NSDate+DKStringFormatter.m in Sources */,
+				A7D5AA2299AACEC24F537DCDC2CB2887 /* NSString+DKDateFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D56B0C2333001263D241CFAF773B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311923F8E273658809F930D9667C8E28 /* Pods-DKDateFormatterDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9756D57244C393D662D71AC7DD720EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E725B34E7A62993A50DAACE10B47F2E7 /* Pods-DKDateFormatterDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5403306A74321013D0809ADEB428B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKDateFormatter;
+			target = 45D0D1C1E4D13314D5915B9CC2CB133F /* DKDateFormatter */;
+			targetProxy = F3B3111F81F0122729CCC2F09EF25C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2BA5386F0DC7BC99BACB4C9F128AFF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26449F9552779DFE1F9F269E1CCDF940 /* Pods-DKDateFormatterDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350551A8CD8D934579CA953ED1772408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20C27F5B4D9139F1ED9C8BE5B0F8545 /* Pods-DKDateFormatterDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42403681D1D17EC3688FFEDD978FA6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C5B4A18E14306E6A00C0C0B1DD1BBD /* DKDateFormatter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DKDateFormatter/DKDateFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50523B2B233C3858C0CE645BA662F634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34655035D3EC76F60898E62622AD518 /* Pods-DKDateFormatterDemoTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9CB12A5EE9911E85A8E53422822D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5222176FA7D86A5CD272D2D354469A /* Pods-DKDateFormatterDemoTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FA65B4076C8DE56A459E96A65FC21D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38804762A7ACD87D30F3269B15AA6CA8 /* Pods-DKDateFormatterDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		692B9E394421FAC309BDF4BA5682F95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C5B4A18E14306E6A00C0C0B1DD1BBD /* DKDateFormatter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DKDateFormatter/DKDateFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6FB066581B1046B6B5E920E7DF1C424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728F2A3721CE79C0020B8B36373BEBAB /* Pods-DKDateFormatterDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF405426857C065123D950465A8AEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF405426857C065123D950465A8AEFA /* Debug */,
+				00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A736FCC80476E4527B7C1955E8E071 /* Build configuration list for PBXNativeTarget "Pods-DKDateFormatterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA65B4076C8DE56A459E96A65FC21D9 /* Debug */,
+				2BA5386F0DC7BC99BACB4C9F128AFF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D1EE61BF9077AE4247094C68F54FBB /* Build configuration list for PBXNativeTarget "Pods-DKDateFormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350551A8CD8D934579CA953ED1772408 /* Debug */,
+				C6FB066581B1046B6B5E920E7DF1C424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF503314BF2ADD03007EFD335D47F99 /* Build configuration list for PBXNativeTarget "DKDateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692B9E394421FAC309BDF4BA5682F95C /* Debug */,
+				42403681D1D17EC3688FFEDD978FA6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96E5328F38BE08F85158EFE8282B22B /* Build configuration list for PBXNativeTarget "Pods-DKDateFormatterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9CB12A5EE9911E85A8E53422822D9B /* Debug */,
+				50523B2B233C3858C0CE645BA662F634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
